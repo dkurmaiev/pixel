@@ -1,0 +1,36 @@
+/* src/components/common/Navbar.css */
+
+.navbar {
+    background-color: #3f51b5;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-menu a:hover {
+    text-decoration: underline;
+  }
+  

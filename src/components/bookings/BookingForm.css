@@ -1,0 +1,18 @@
+/* src/components/bookings/BookingForm.css */
+
+.booking-form {
+    margin-top: 20px;
+  }
+  
+  .booking-button {
+    padding: 15px 30px;
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .booking-button:hover {
+    background-color: #303f9f;
+  }
+  

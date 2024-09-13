@@ -1,0 +1,27 @@
+/* src/components/bookings/SeatSelection.css */
+
+.seat-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 20px 0;
+  }
+  
+  .seat {
+    width: 60px;
+    height: 60px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .seat.selected {
+    background-color: #3f51b5;
+    color: #fff;
+  }
+  
+  .seat:hover {
+    background-color: #bdbdbd;
+  }
+  

@@ -1,0 +1,32 @@
+/* src/components/movies/MovieDetails.css */
+
+.movie-details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .movie-details-poster {
+    max-width: 300px;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  .movie-details-info {
+    flex: 1;
+  }
+  
+  .movie-details-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #f50057;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .movie-details-button:hover {
+    background-color: #c51162;
+  }
+  

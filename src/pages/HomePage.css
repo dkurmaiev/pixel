@@ -1,0 +1,26 @@
+/* src/pages/HomePage.css */
+
+.home-container {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('/images/cinema-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .home-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #f50057;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .home-button:hover {
+    background-color: #c51162;
+  }
+  
